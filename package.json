@@ -2,6 +2,14 @@
   "name": "wms-ai-agent",
   "version": "0.1.0",
   "description": "File-based MCP server for repository, log, and datasource investigations.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YangPei1993/wms-ai-agent.git"
+  },
+  "homepage": "https://github.com/YangPei1993/wms-ai-agent",
+  "bugs": {
+    "url": "https://github.com/YangPei1993/wms-ai-agent/issues"
+  },
   "type": "module",
   "bin": {
     "wms-ai-agent": "./build/index.js"
