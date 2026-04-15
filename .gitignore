@@ -1,0 +1,8 @@
+build/
+node_modules/
+.runtime/
+.venv/
+.DS_Store
+coverage/
+*.log
+*.tsbuildinfo

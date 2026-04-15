@@ -1,0 +1,10 @@
+{
+  "id": "project.snapshot",
+  "label": "Project Snapshot",
+  "version": "1.0.0",
+  "description": "Generate a concise snapshot for one or more projects, including repo/log/datasource counts and labels.",
+  "entry": "./module.js",
+  "enabled": true,
+  "tags": ["catalog", "project", "summary"],
+  "hotReloadable": true
+}

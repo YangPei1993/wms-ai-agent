@@ -1,0 +1,37 @@
+{
+  "name": "wms-ai-agent",
+  "version": "0.1.0",
+  "description": "File-based MCP server for repository, log, and datasource investigations.",
+  "type": "module",
+  "bin": {
+    "wms-ai-agent": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js build/config-ui.js",
+    "check": "tsc --noEmit",
+    "dev:mcp": "tsx src/index.ts",
+    "dev:config": "tsx src/config-ui.ts",
+    "start": "node build/index.js",
+    "start:config": "node build/config-ui.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "kafkajs": "^2.2.4",
+    "marked": "^17.0.5",
+    "mermaid": "^11.13.0",
+    "mongodb": "^7.1.0",
+    "mysql2": "^3.18.1",
+    "pg": "^8.19.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.1",
+    "@types/pg": "^8.15.6",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
